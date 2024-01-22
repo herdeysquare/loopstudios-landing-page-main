@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+header {
+  background-image: url(loopstudios-landing-page-main/images/desktop/image-hero.jpg);
+  height: 34em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: auto;
+}
+
+header > img {
+  margin-left: 150px;
+  margin-top: 90px;
+  margin-bottom: -20px;
+  width: 100px;
+}
+
+nav > a {
+  padding-left: 830px;
+  padding-right: -200px;
+  color: white;
+  text-decoration: none;
+  margin: 2px;
+  display: inline;
+  margin-left: 20px;
+  margin-right: -820px;
+}
+
+header > h1 {
+  display: flex;
+  border: 1px solid white;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+  height: 5em;
+  margin-right: 600px;
+  margin-left: 150px;
+  padding-bottom: 0px;
+  margin-top: 100px;
+  font-size: 3em;
+  font-weight: lighter;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+
+section > img {
+  float: left;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 60px;
+  width: fit-content;
+}
+
+section > div {
+  text-align: left;
+  float: right;
+  position: relative;
+  height: 50vh;
+  width: 50vw;
+  margin-right: 35px;
+  margin-top: 300px;
+  background-color: white;
+  border: 1px solid white;
+  padding: 20px 0px 0px 90px;
+}
+
+section > div > h1 {
+  font-weight: bolder;
+  font-size: 3em;
+  text-align: left;
+}
+
+section > div > p {
+  font-weight: lighter;
+  font-size: 1em;
+  text-align: center;
+  line-height: 30px;
+  padding: 10px 25px 25px 10px;
+  text-align: left;
+}
+
+div > h2 {
+  /* border: 1px solid red;  */
+  padding: 700px 0px 0px 55px;
+  font-weight: lighter;
+  font-size: 1.8em;
+}
+
+div > a {
+  display: flex;
+  font-weight: lighter;
+  font-size: 0.8em;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  border: 1px solid gray;
+  margin: -60px 400px 0px 1125px;
+  justify-content: center;
+  padding: 10px 0px 10px 0px;
+  width: 150px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  height: 70em;
+  padding: 100px 100px 100px 100px;
+  gap: 30px;
+  color: white;
+}
+
+main > div:nth-child(1) {
+  background-image: url(loopstudios-landing-page-main/images/desktop/image-deep-earth.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main > div:nth-child(2) {
+  background-image: url(loopstudios-landing-page-main/images/desktop/image-night-arcade.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main > div:nth-child(3) {
+  background-image: url(loopstudios-landing-page-main/images/desktop/image-soccer-team.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main > div:nth-child(4) {
+  background-image: url(loopstudios-landing-page-main/images/desktop/image-grid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main > div:nth-child(5) {
+  background-image: url(loopstudios-landing-page-main/images/desktop/image-from-above.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main > div:nth-child(6) {
+  background-image: url(loopstudios-landing-page-main/images/desktop/image-pocket-borealis.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main > div:nth-child(7) {
+  background-image: url(loopstudios-landing-page-main/images/desktop/image-curiosity.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main > div:nth-child(8) {
+  background-image: url(loopstudios-landing-page-main/images/desktop/image-fisheye.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main > div > p {
+  margin-top: 390px;
+  font-weight: lighter;
+  font-size: 1.8em;
+  padding-left: 30px;
+}
+
+footer {
+  background-color: black;
+  height: 30vh;
+  margin-top: 50px;
+}
+footer > img {
+  padding-top: 20px;
+  margin-bottom: -10px;
+}
+
+footer > img:nth-child(1) {
+  display: grid;
+  padding: 30px 0px 0px 55px;
+  width: 180px;
+  margin: 0px;
+}
+footer > img:nth-child(2),
+footer > img:nth-child(3),
+footer > img:nth-child(4),
+footer > img:nth-child(5) {
+  display: inline;
+  align-items: right;
+  justify-content: right;
+  margin-left: 1010px;
+  margin-right: -960px;
+  padding-bottom: 40px;
+  margin-top: -40px;
+}
+
+footer > div {
+  padding-top: 10px;
+  
+}
+
+footer > div > nav > a { 
+ float: left; 
+ display: inline; 
+ justify-content: left; 
+ align-items: left; 
+ padding: 20px 0px 0px 80px; 
+ margin: 0px 0px -20px -30px; 
+} 
+
+ footer > div > p { 
+ color: gray;
+ display: inline;
+ align-items: right;
+ justify-content: right;
+ margin-left: 1010px; 
+ margin-right: -960px; 
+}
